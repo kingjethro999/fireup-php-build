@@ -1,0 +1,13 @@
+{
+    "name": "AI Code Logic",
+    "languages": [
+        "php",
+        "javascript",
+        "tailwind",
+        "css"
+    ],
+    "api_info": {
+        "key": "fireup/php-build",
+        "url": "https://fireup-php-build.onrender.com"
+    }
+}

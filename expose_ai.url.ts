@@ -1,0 +1,1 @@
+export const expose_ai_url = "https://openrouter.ai/api/v1/chat/completions";
