@@ -12,8 +12,12 @@ yarn-error.log*
 .env.production.local
 
 # Sensitive files (uncomment if you want to protect these)
-# expose_ai.key.ts
-# only.key.ts
+expose_ai.key.ts
+only.key.ts
+# JavaScript versions of sensitive files
+expose_ai.key.js
+expose_ai.url.js
+only.key.js
 
 # Logs
 logs

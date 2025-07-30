@@ -1,8 +1,8 @@
 // Expose Client - Reads JSON config and makes authenticated requests
 export class ExposeClient {
   private config: any;
-  private apiKey: string;
-  private baseUrl: string;
+  private apiKey!: string;
+  private baseUrl!: string;
 
   constructor(configPath: string = './chat.logic.json') {
     this.loadConfig(configPath);

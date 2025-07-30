@@ -32,7 +32,7 @@ fetch("https://fireup-php-build.onrender.com/api/chat", {
     const reader = response.body.getReader();
     const decoder = new TextDecoder();
     
-    function readStream() {
+    function readStream(): Promise<void> {
       return reader.read().then(({ done, value }) => {
         if (done) return;
         
