@@ -3,9 +3,13 @@ import cors from 'cors';
 import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
+import dotenv from 'dotenv';
 import { expose_ai_key } from './expose_ai.key.js';
 import { expose_ai_url } from './expose_ai.url.js';
 import { only_key } from './only.key.js';
+
+// Load environment variables
+dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;

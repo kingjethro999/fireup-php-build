@@ -2,9 +2,9 @@
   "name": "expose-api-proxy",
   "version": "1.0.0",
   "description": "Private API proxy server for Expose framework",
-  "main": "server.js",
+  "main": "dist/server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node dist/server.js",
     "dev": "nodemon server.js",
     "build": "tsc"
   },
